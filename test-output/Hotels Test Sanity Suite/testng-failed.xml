@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Hotels Test Sanity Suite]">
+  <listeners>
+    <listener class-name="com.hotels.listeners.TestAllureListener"/>
+  </listeners>
+  <test thread-count="5" verbose="3" name="hub spot Sanity Test(failed)">
+    <classes>
+      <class name="com.hotels.tests.SearchPageTest">
+        <methods>
+          <include name="threeStarHotelsMilesTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hotels.tests.SearchPageTest -->
+    </classes>
+  </test> <!-- hub spot Sanity Test(failed) -->
+</suite> <!-- Failed suite [Hotels Test Sanity Suite] -->
