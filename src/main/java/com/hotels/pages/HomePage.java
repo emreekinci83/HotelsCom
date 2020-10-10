@@ -36,6 +36,9 @@ public class HomePage extends BasePage {
 		jutil = new JavaScriptUtil();
 	}
 
+	public void newMethod(){
+		
+	}
 	public String getHomePageTitle(String title) {
 
 		return util.waitForGetPageTitle(title);
