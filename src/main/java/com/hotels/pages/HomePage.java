@@ -36,12 +36,17 @@ public class HomePage extends BasePage {
 		jutil = new JavaScriptUtil();
 	}
 
+	public void newMethod(){
+		
+	}
 	public String getHomePageTitle(String title) {
 
 		return util.waitForGetPageTitle(title);
 	}
 	
-	
+	public void newMethod1(){
+		System.out.println("Hello");
+	}
 	public void selectDestinationDatesAndSubmit(){
 		
 		selectDestination();
