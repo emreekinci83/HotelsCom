@@ -44,7 +44,9 @@ public class HomePage extends BasePage {
 		return util.waitForGetPageTitle(title);
 	}
 	
-	
+	public void newMethod1(){
+		System.out.println("Hello");
+	}
 	public void selectDestinationDatesAndSubmit(){
 		
 		selectDestination();
