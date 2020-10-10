@@ -89,6 +89,7 @@ public class HomePage extends BasePage {
 		util.selectByValue(child, "2");
 		util.selectByValue(child1, "3");
 		util.selectByValue(child2, "7");
+		util.selectByValue(child2, "10");
 		
 	}
 	
