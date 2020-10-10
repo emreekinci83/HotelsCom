@@ -29,13 +29,17 @@ public class SearchPage extends BasePage {
 	By stars = By.xpath("//span[@class='star-rating-text star-rating-text-strong']");
 	By hotel_name = By.xpath("//a[@class='property-name-link']");
 	By whole_text = By.xpath("//div[@class='description resp-module']");
-
+	By whole_text1 = By.xpath("//div[@class='description']");
+	
 	public SearchPage(WebDriver driver) {
 
 		this.driver = driver;
 		util = new ElementUtil(driver);
 	}
 
+	public void method1(){
+		
+	}
 	public void selectFiveStarHotels(String choice) {
 
 		if (choice.equals("5")) {
