@@ -82,7 +82,12 @@ public class ElementUtil extends BasePage {
 		}
 
 	}
+
+	public void holdAndClick(){
+		System.out.println("test 2");
+	}
 	
+
 	public void mouseHover(){
 		System.out.println("test");
 	}
