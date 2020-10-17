@@ -97,7 +97,12 @@ public class ElementUtil extends BasePage {
 		select.selectByValue(value);
 	}
 
+
 	public void deneme() {
+
+	}
+	public void deneme2(){
+		
 
 	}
 }
