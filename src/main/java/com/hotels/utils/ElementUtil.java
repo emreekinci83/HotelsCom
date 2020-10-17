@@ -105,4 +105,8 @@ public class ElementUtil extends BasePage {
 		
 
 	}
+	
+	public void deneme3(){
+		
+	}
 }
