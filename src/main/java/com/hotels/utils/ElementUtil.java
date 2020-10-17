@@ -10,8 +10,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.hotels.base.BasePage;
 
-
-
 public class ElementUtil extends BasePage {
 
 	WebDriver driver;
@@ -82,8 +80,8 @@ public class ElementUtil extends BasePage {
 		}
 
 	}
-	
-	public void mouseHover(){
+
+	public void mouseHover() {
 		System.out.println("test");
 	}
 
@@ -92,11 +90,14 @@ public class ElementUtil extends BasePage {
 		Actions actions = new Actions(driver);
 		actions.moveToElement(getElement(locator)).build().perform();
 	}
-	
-	public void selectByValue(By locator, String value){
-		
+
+	public void selectByValue(By locator, String value) {
+
 		Select select = new Select(getElement(locator));
 		select.selectByValue(value);
 	}
 
+	public void deneme() {
+
+	}
 }
